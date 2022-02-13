@@ -80,6 +80,8 @@ def GetClass():
         flag = True;
         
         # Get user's interest
+        print("[aeroplane, bicycle, bird, boat, bottle, bus, car, cat, chair, cow, diningtable, dog, horse, motorbike, person, pottedplant, sheep, sofa, train, tvmonitor]")
+        print("Classes you want to detect: ")
         input_str = input()
         classes = input_str.split()
         #print(classes)
